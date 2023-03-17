@@ -25,16 +25,23 @@ const Home = () => {
                 <h2>Hi, My name is Georgi</h2>
                 <div className='prompt'>
                     <p>and I am a junior Software Developer ...</p>
-                    <IconButton href='https://github.com/SotirovGD'>
-                        <GithubIcon />
+
+                    <IconButton>
+                        <a href='https://github.com/SotirovGD' target="_blank"  >
+                            <GithubIcon />
+                        </a>
                     </IconButton>
+
+
 
                     <IconButton>
                         <Link to='/contact'> <RecentActorsSharpIcon /> </Link>
                     </IconButton>
 
-                    <IconButton href='https://www.linkedin.com/in/georgi-sotirov-a785a7207/'>
-                        <LinkedinIcon />
+                    <IconButton >
+                        <a href='https://www.linkedin.com/in/georgi-sotirov-a785a7207/'target="_blank">
+                            <LinkedinIcon />
+                        </a>
                     </IconButton>
 
                 </div>

@@ -11,16 +11,23 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='socialMedia'>
-        <IconButton href='https://www.instagram.com/'>
-          <InstagramIcon />
+        <IconButton >
+          <a href='https://www.instagram.com/' target="_blank">
+            <InstagramIcon />
+          </a>
         </IconButton>
 
-        <IconButton href='https://twitter.com/'>
-          <TwitterIcon />
+        <IconButton >
+          <a href='https://twitter.com/' target="_blank">
+            <TwitterIcon />
+          </a>
         </IconButton>
 
-        <IconButton href='https://www.facebook.com/gogo.soti.52'>
-          <FacebookIcon />
+
+        <IconButton >
+          <a href='https://www.facebook.com/gogo.soti.52' target="_blank">
+            <FacebookIcon />
+          </a>
         </IconButton>
 
 

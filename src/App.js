@@ -4,7 +4,7 @@ import Projects from './pages/Projects';
 import Experience from './pages/Experience';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
